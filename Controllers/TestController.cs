@@ -11,6 +11,7 @@ namespace API.Controllers
         // GET: Test
         public ActionResult Index()
         {
+            var x = 2;
             return View();
         }
     }
